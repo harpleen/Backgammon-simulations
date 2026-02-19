@@ -1,4 +1,3 @@
-
 const { NeuralNetwork, sigmoid, sigmoidDerivative } = require("./neural_network.js");
 
 let totalTests = 0;
