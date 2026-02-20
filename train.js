@@ -1,12 +1,12 @@
 
 const fs = require("fs");
-const { TDAgent } = require("./td-agent");
+const { TDAgent } = require("./td_agent.js");
 
-const HIDDEN_SIZE = 40;         // Neurons in hidden layer
+const HIDDEN_SIZE = 80;         // Neurons in hidden layer
 const LEARNING_RATE = 0.05;      // How aggressively to learn
 const LAMBDA = 0.7;             // Eligibility trace decay
 
-const TOTAL_GAMES = 50000;      // Total training games 
+const TOTAL_GAMES = 5000000;      // Total training games 
 const EVAL_EVERY = 2500;        // Evaluate against random every N games
 const EVAL_GAMES = 200;         // Games per evaluation round
 const SAVE_EVERY = 2500;        // Save weights every N games
