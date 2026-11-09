@@ -1,4 +1,4 @@
-const { Backgammon } = require("./backgammon");
+const { Backgammon } = require("../backgammon/backgammon");
 
 let totalTests = 0;
 let passedTests = 0;

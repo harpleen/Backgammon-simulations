@@ -1,6 +1,6 @@
-const { TDAgent } = require("./td_agent.js");
-const { Backgammon } = require("./backgammon");
-const { encodeBoard } = require("./encoder");
+const { TDAgent } = require("../backgammon/td_agent");
+const { Backgammon } = require("../backgammon/backgammon");
+const { encodeBoard } = require("../backgammon/encoder");
 
 let totalTests = 0;
 let passedTests = 0;

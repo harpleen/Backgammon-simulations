@@ -1,4 +1,4 @@
-const { NeuralNetwork, sigmoid, sigmoidDerivative } = require("./neural_network.js");
+const { NeuralNetwork, sigmoid, sigmoidDerivative } = require("../backgammon/neural_network");
 
 let totalTests = 0;
 let passedTests = 0;

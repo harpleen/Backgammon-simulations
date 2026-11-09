@@ -1,5 +1,5 @@
-const { encodeBoard, encodePointCount } = require("./encoder");
-const { Backgammon } = require("./backgammon");
+const { encodeBoard, encodePointCount } = require("../backgammon/encoder");
+const { Backgammon } = require("../backgammon/backgammon");
 
 
 let totalTests = 0;
